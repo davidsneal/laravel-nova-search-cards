@@ -1,0 +1,29 @@
+{
+    "name": "davidsneal/laravel-nova-search-cards",
+    "description": "Simple search cards for Laravel Nova dashboard.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davidsneal\\LaravelNovaSearchCards\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Davidsneal\\LaravelNovaSearchCards\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
